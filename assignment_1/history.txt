@@ -1,0 +1,94 @@
+    1  exit
+    2  ls
+    3  ls -l
+    4  cd /mnt/scratch-lustre/user
+    5  cd /fs/lustre/scratch
+    6  ls
+    7  cd iaytekin
+    8  ls
+    9  ld
+   10  ls
+   11  git clone https://github.com/CITA/CTA200H.git
+   12  ls
+   13  git pull
+   14  git add fileread.cpp
+   15  git commit -m "Fixed bug in file read for large files"
+   16  git push
+   17  ls
+   18  git log
+   19  git clone git clone git@github.com:CITA/CTA200H.git
+   20  ls
+   21  mkdir CTA200_2025
+   22  ls
+   23  git remote set-url origin https://github.com/irmakmaviaytekin/CTA200H.git
+   24  cd CTA200H
+   25  ls
+   26  ..cd
+   27  ..
+   28  cd ..
+   29  ls
+   30  ls
+   31  ls-l
+   32  ls -l
+   33  ssh cosmo1.cita.utoronto.ca:6
+   34  ssh cosmo2
+   35  cosmo1
+   36  ssh cosmo1
+   37  ls
+   38  ssh -D 2400 iaytekin@cosmo6.cita.utoronto.ca
+   39  ls
+   40  cd Desktop
+   41  ls
+   42  cd ..
+   43  git clone git@github.com:CITA/CTA200H.git
+   44  git clone https://github.com/CITA/CTA200H.git
+   45  ls
+   46  cd CTA200H
+   47  git remote set-url origin https://github.com/irmakmaviaytekin/Irmak_CTA200H.git
+   48  git remote -v
+   49  git remote add upstream https://github.com/CITA/CTA200H.git
+   50  git add README.md
+   51  ls
+   52  git commit -m "Add README"
+   53  git add assignment_1/
+   54  git commit -m "Add Hello World programs, output files, and history"
+   55  git push -u origin main
+   56  git push origin main
+   57  git push origin master
+   58  git config --global credential.helper store
+   59  git push origin master
+   60  git status
+   61  git remote -v
+   62  git log --oneline -5
+   63  mkdir -p /fs/lustre/scratch/USERNAME/CTA200_2025/assignment_1
+   64  ls
+   65  pwd
+   66  cd /fs/lustre/scratch/iaytekin/CTA200_2025
+   67  cd ~
+   68  mkdir -p CTA200_2025/assignment_1
+   69  cd CTA200_2025
+   70  git init
+   71  git remote add origin https://github.com/irmakmaviaytekin/CTA200_2025.git
+   72  cd assignment_1
+   73  vi README.md
+   74  cd ..
+   75  git add assignment_1/README.md
+   76  git commit -m "Add README"
+   77  git branch -M main
+   78  git push -u origin main
+   79  module load python/3.10.2
+   80  cd ~/CTA200_2025/assignment_1
+   81  vi Hello_world_aytekin.py
+   82  vi Hello_world_aytekin.c
+   83  # Python
+   84  python3 Hello_world_aytekin.py
+   85  # C - compile first
+   86  gcc Hello_world_aytekin.c -o Hello_world.x
+   87  ./Hello_world.x
+   88  vi Hello_world_aytekin.py
+   89  python3 Hello_world_aytekin.py
+   90  ./Hello_world.x > output_c.txt
+   91  python3 Hello_world_aytekin.py > output_python.txt
+   92  cat output_c.txt
+   93  cat output_python.txt
+   94  history > ~/CTA200_2025/assignment_1/history.txt
